@@ -13,11 +13,6 @@
     font-size: 40px;
     font-weight: bold;
 }
-p{
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-}
 .logo{
     text-align: center;
 }
@@ -96,6 +91,8 @@ p{
     margin: auto;
     text-align: left;
     padding: 12px;
+    display: inline-flex;
+    align-items: center;
 }
 ol{
     list-style: decimal;
@@ -230,4 +227,46 @@ ol{
     font-size: 18px;
     margin-top: 15px;
     text-align: left;
+}
+/* Footer Section Start Here  */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width: 170px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.social-icons{
+    margin-top: 20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size: 20px;
+}
+.fa-solid{
+    margin-right: 8px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
 }
