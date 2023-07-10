@@ -9,6 +9,11 @@
     background-color: gray;
     padding: 10px;
 }
+.digital{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
 .logo-title{
     font-size: 40px;
     font-weight: bold;
@@ -19,8 +24,8 @@
 .menus{
     list-style: none;
     display: flex;
-    gap: 15px;
-    font-size: 18px;
+    gap: 20px;
+    font-size: 20px;
 }
 .banner-container{
     height: 100vh;
@@ -160,7 +165,7 @@ ol{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding-right: 30px;
     border-right: 2px solid darkgray;
 }
 .appoin-logo{
@@ -168,12 +173,13 @@ ol{
     padding: 15px;
 }
 .appointment-desc{
-    padding: 10px;
+    padding-left: 30px;
     text-align: justify;
     font-size: 20px;
+
 }
 .appointment-button{
-    padding: 10px;
+    padding-left: 10px;
 }
 .appointment-button button{
     padding: 20px 35px;
